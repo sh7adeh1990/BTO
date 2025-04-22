@@ -5,7 +5,7 @@
 %                                                                                                             
 %                                                                                     
 % Reference: Hisham A. Shehadeh, Bermuda Triangle
-% Optimizer (BTO): A Novel Metaheuristic Method for Global Optimization, 
+% Optimizer (BTO): A Novel Metaheuristic Method for Global Optimization, Int. J. Advance Soft Compu. Appl, 
 % Vol. 17, No. 2, July 2025. DOI: 10.15849/IJASCA.250730.01 
 %
 % email: sh7adeh1990@hotmail.com
@@ -32,7 +32,9 @@ g= 6.67*10^-11;  %(constant of universal gravitation)
    G=(log10((1-g)*rand(1,1)+1));
 
    distance = rand();
-   
+   % This algorithm is created based on the attraction force of Bermuda in which can be considered as a black hole. 
+   % Unfortunately, the black holes were not discovered at the duration of Newton's time. However, Albert Einstein proved its gravity force. 
+   % We have many objects that are attracted to the center to Bermuda triangle, based on that we use the Newton's method of gravity force.
 force=(G*rand()*rand())/(distance^2);  %force lows Eq.(22)
 
 triangle_area = 0.5*rand()*rand(); % Eq.(26)
