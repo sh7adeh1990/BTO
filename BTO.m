@@ -34,7 +34,7 @@ g= 6.67*10^-11;  %(constant of universal gravitation)
    distance = rand();
    % This algorithm is created based on the attraction force of Bermuda in which can be considered as a black hole. 
    % Unfortunately, the black holes were not discovered at the duration of Newton's time. However, Albert Einstein proved its gravity force. 
-   % We have many objects that are attracted to the center to Bermuda triangle, based on that we use the Newton's method of gravity force.
+   % We have many objects that are attracted to the center of Bermuda triangle, based on that we use the Newton's method of gravity force.
 force=(G*rand()*rand())/(distance^2);  %force lows Eq.(22)
 
 triangle_area = 0.5*rand()*rand(); % Eq.(26)
