@@ -5,7 +5,7 @@
 %                                                                                                             
 %                                                                                     
 % Reference: Hisham A. Shehadeh, Bermuda Triangle
-% Optimizer (BTO): A Novel Metaheuristic Method for Global Optimization, 
+% Optimizer (BTO): A Novel Metaheuristic Method for Global Optimization, Int. J. Advance Soft Compu. Appl, 
 % Vol. 17, No. 2, July 2025. DOI: 10.15849/IJASCA.250730.01 
 %
 % email: sh7adeh1990@hotmail.com
