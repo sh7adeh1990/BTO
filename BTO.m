@@ -72,7 +72,7 @@ while C_Iter<M_Iter+1  %Main loop
                     %The object inside bermuda, it already has massive attraction force. 
                     %PoF = (1 – the p-value) is the probability that the alternative hypothesis is true.
                     %If the probability of force is p, then the probability
-                    %of no force is (1 – the p-value), that is why we use  subtraction operation in Eq.(28) section 1 
+                    %of no massive attraction force is (1 – the p-value), that is why we use  subtraction operation in Eq.(28) section 1 
                     
                         Xnew(i,j)=m*triangle_area*(rand()*2.7^(-20*(C_Iter/M_Iter))*(Best_P(1,j)-PoF*((UB-LB)*Zone_Bermuda+LB)));
                 else
